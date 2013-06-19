@@ -29,6 +29,7 @@ import java.util.Random;
 public final class FirstFilter extends AbstractFilter {
 
 	public static final FirstFilter INSTANCE = new FirstFilter();
+	System.out.println("Coucou");
 
 	@Override
 	public <T> List<T> doFilter(List<T> items, Object key) {

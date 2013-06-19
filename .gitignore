@@ -12,3 +12,6 @@ out
 *.java.hsp
 deps.txt
 line_feed.txt
+target
+*.old
+*.bak
